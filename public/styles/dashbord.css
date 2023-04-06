@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale3d(2.5);
+    transition-duration: 1.3s;
+}

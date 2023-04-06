@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    background: none;
+    color: white;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: rgba(120, 118, 118, 0.427);
+
+    transform: scale(1.09);
+    transition-duration: 1s;
+}
